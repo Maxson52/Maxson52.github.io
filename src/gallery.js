@@ -7,11 +7,11 @@ function addDOM(result) {
     let wrapper = document.createElement("div");
     if (e.title != "+") {
       wrapper.onclick = function () {
-        location.href = "project.html?title=" + e.title;
+        location.href = "project?title=" + e.title;
       };
     } else {
       wrapper.onclick = function () {
-        location.href = "projects.html";
+        location.href = "projects";
       };
     }
 

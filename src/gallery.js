@@ -3,11 +3,18 @@ function addDOM(result) {
   let dom = document.querySelector("#dom");
   let fragment = document.createDocumentFragment();
 
-  data.images.forEach((e) => {
+  data.gallery.forEach((e) => {
     let wrapper = document.createElement("div");
-    wrapper.onclick = function () {
-      location.href = "projects.html";
-    };
+    if (e.title != "+") {
+      wrapper.onclick = function () {
+        location.href = "project.html?title=" + e.title;
+      };
+    } else {
+      wrapper.onclick = function () {
+        location.href = "projects.html";
+      };
+    }
+
     wrapper.className =
       "column is-one-quarter-desktop hero is-one-third-tablet is-half-mobile";
     let img = document.createElement("img");
@@ -16,10 +23,10 @@ function addDOM(result) {
     more.className = "viewmore subtitle has-text-centered";
     let p = document.createElement("p");
     p.className = "viewmoretext";
-    p.innerText = "+";
+    p.innerText = e.title;
 
     fragment.appendChild(wrapper);
-    img.src = e;
+    img.src = e.image;
     wrapper.appendChild(img);
     wrapper.appendChild(more);
     more.appendChild(p);

@@ -1,12 +1,63 @@
 {
-    "images": [
-        "../images/Logos/3dmechremains.png", 
-        "../images/Logos/3droom.png", 
-        "../images/Logos/businesscard3d.png", 
-        "../images/Logos/CuteCup.png",         
-        "../images/Logos/Mountain.png",        
-        "../images/Logos/vccolour.png", 
-        "../images/Logos/mlogo.png", 
-        "../images/Logos/SwordLogo.png"
+    "gallery": [
+        {
+            "title": "A Robot's Picnic",
+            "image": "../assets/images/3dmechremains.png",
+            "image2": "../assets/RobotsPicnic.jpg",
+            "text": "A contest entry for a 3D creator group"
+        },
+        {
+            "title": "Inside the Door",
+            "image": "../assets/images/3droom.png",
+            "image2": "../assets/images/3droom.jpg",
+            "text": "A open-concept, modern pink house"
+        },
+        {
+            "title": "3D Stationery",
+            "image": "../assets/images/businesscard3d.png",
+            "image2": "../assets/card_render.jpg",
+            "text": "Business cards rendered in 3D"
+        },
+        {
+            "title": "Emotional Drink",
+            "image": "../assets/images/CuteCup.png",
+            "image2": "../assets/Logo/CuteCup.jpg",
+            "text": "An expressive cup, ready for animation"
+        },
+        {     
+            "title": "Peak Custom Keyboards",
+            "image": "../assets/images/Mountain.png",
+            "image2": "../assets/images/Mountain.png",
+            "text": "A minimalist logo for a keyboard company"
+        },
+        {
+            "title": "Vena Cava Cosmetics",
+            "image": "../assets/images/vccolour.png",
+            "image2": "../assets/images/vccolour.png",
+            "text": "A heart-shaped logo for a cosmetic company"
+        },
+        { 
+            "title": "Mystical Gaming",
+            "image": "../assets/images/mlogo.png",
+            "image2": "../assets/images/mlogo.png",
+            "text": "A gaming logo for a gaming startup"
+        },
+        { 
+            "title": "Melancholic",
+            "image": "../assets/images/SwordLogo.png",
+            "image2": "../assets/images/SwordLogo.png",
+            "text": "A text-based logo for a startup"
+        },
+        {
+            "title": "Flora's Flowers",
+            "image": "../assets/images/flower_businesscard.png",
+            "image2": "../assets/images/flower_businesscard.png",
+            "text": "Business cards for a flower boutique"
+        },
+        {
+            "title": "+",
+            "image": "../assets/images/viewmore.png",
+            "text": "View More"
+        }
     ] 
 }

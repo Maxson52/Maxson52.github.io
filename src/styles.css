@@ -19,7 +19,7 @@
   opacity: 0;
   font-weight: 700 !important;
   color: white !important;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   height: calc(100% - 1.5rem);
   width: calc(100% - 1.5rem);
 
@@ -29,8 +29,8 @@
 }
 
 .viewmoretext {
-  font-weight: 100;
-  font-size: 4rem;
+  font-weight: 200;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -86,7 +86,8 @@ body {
   padding-top: 0 !important;
 }
 
-#particles-js {
+/* im not sure if i still need the first one of these */
+.particles-js {
   position: absolute;
   width: 100%;
   height: 250vh;
@@ -99,10 +100,25 @@ body {
   background-position: 50% 50%;
   overflow: hidden;
 }
+
 #particles-js-1 {
   position: absolute;
   width: 100%;
-  height: 380vh;
+  height: 350vh;
+  z-index: -1;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  overflow: hidden;
+}
+
+#particles-js-2 {
+  position: absolute;
+  width: 100%;
+  height: 200vh;
   z-index: -1;
   background-color: #ffffff;
   margin: 0;

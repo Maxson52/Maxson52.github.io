@@ -3,7 +3,7 @@
         {
             "title": "A Robot's Picnic",
             "image": "../assets/images/3dmechremains.png",
-            "image2": "../assets/RobotsPicnic.jpg",
+            "image2": "../assets/images16x9/RobotsPicnic.jpg",
             "text": "A contest entry for a 3D creator group"
         },
         {
@@ -15,13 +15,13 @@
         {
             "title": "3D Stationery",
             "image": "../assets/images/businesscard3d.png",
-            "image2": "../assets/card_render.jpg",
+            "image2": "../assets/images16x9/card_render.jpg",
             "text": "Business cards rendered in 3D"
         },
         {
             "title": "Emotional Drink",
             "image": "../assets/images/CuteCup.png",
-            "image2": "../assets/Logo/CuteCup.jpg",
+            "image2": "../assets/images/CuteCup.jpg",
             "text": "An expressive cup, ready for animation"
         },
         {     

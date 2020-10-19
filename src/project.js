@@ -29,6 +29,10 @@ function addDOM(result) {
   col2.appendChild(img);
 
   dom.appendChild(fragment);
+
+  let docTitle = findTitle.title.toUpperCase();
+
+  document.title = docTitle + " | Max T";
 }
 
 function readJSON(path) {

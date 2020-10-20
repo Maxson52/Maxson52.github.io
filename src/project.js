@@ -7,32 +7,36 @@ function addDOM(result) {
     return obj.title == title;
   });
 
-  let col1 = document.createElement("div");
-  let col2 = document.createElement("div");
-  col1.className = "column is-6";
-  col2.className = "column";
+  if (findTitle == undefined || findTitle == null || findTitle == "") {
+    window.location = "projects";
+  } else {
+    let col1 = document.createElement("div");
+    let col2 = document.createElement("div");
+    col1.className = "column is-6";
+    col2.className = "column";
 
-  let img = document.createElement("img");
-  img.src = findTitle.image2;
-  let more = document.createElement("div");
-  more.className = "viewmore subtitle has-text-centered";
-  let h2 = document.createElement("h2");
-  h2.innerText = findTitle.title;
-  let p = document.createElement("p");
-  p.innerText = findTitle.text;
+    let img = document.createElement("img");
+    img.src = findTitle.image2;
+    let more = document.createElement("div");
+    more.className = "viewmore subtitle has-text-centered";
+    let h2 = document.createElement("h2");
+    h2.innerText = findTitle.title;
+    let p = document.createElement("p");
+    p.innerText = findTitle.text;
 
-  fragment.appendChild(col1);
-  fragment.appendChild(col2);
+    fragment.appendChild(col1);
+    fragment.appendChild(col2);
 
-  col1.appendChild(h2);
-  col1.appendChild(p);
-  col2.appendChild(img);
+    col1.appendChild(h2);
+    col1.appendChild(p);
+    col2.appendChild(img);
 
-  dom.appendChild(fragment);
+    dom.appendChild(fragment);
 
-  let docTitle = findTitle.title.toUpperCase();
+    let docTitle = findTitle.title.toUpperCase();
 
-  document.title = docTitle + " | Max T";
+    document.title = docTitle + " | Max T";
+  }
 }
 
 function readJSON(path) {

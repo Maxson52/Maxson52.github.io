@@ -3,60 +3,70 @@
         {
             "title": "A Robot's Picnic",
             "image": "../assets/images/3dmechremains.png",
+            "imageCompressed": "../assets/compressed/3dmechremains.png",
             "image2": "../assets/images16x9/RobotsPicnic.jpg",
             "text": "A contest entry for a 3D creator group"
         },
         {
             "title": "Inside the Door",
             "image": "../assets/images/3droom.png",
+            "imageCompressed": "../assets/compressed/3droom.png",
             "image2": "../assets/images/3droom.png",
             "text": "An open-concept, modern pink house"
         },
         {
             "title": "3D Stationery",
             "image": "../assets/images/businesscard3d.png",
+            "imageCompressed": "../assets/compressed/businesscard3d.png",
             "image2": "../assets/images16x9/card_render.png",
             "text": "Business cards rendered in 3D"
         },
         {
             "title": "Emotional Drink",
             "image": "../assets/images/CuteCup.png",
+            "imageCompressed": "../assets/compressed/CuteCup.png",
             "image2": "../assets/images/CuteCup.png",
             "text": "An expressive cup, ready for animation"
         },
         {     
             "title": "Peak Custom Keyboards",
             "image": "../assets/images/Mountain.png",
+            "imageCompressed": "../assets/compressed/Mountain.png",
             "image2": "../assets/images/Mountain.png",
             "text": "A minimalist logo for a keyboard company"
         },
         {
             "title": "Vena Cava Cosmetics",
             "image": "../assets/images/vccolour.png",
+            "imageCompressed": "../assets/compressed/vccolour.png",
             "image2": "../assets/images/vccolour.png",
             "text": "A heart-shaped logo for a cosmetic company"
         },
         { 
             "title": "Mystical Gaming",
             "image": "../assets/images/mlogo.png",
+            "imageCompressed": "../assets/compressed/mlogo.png",
             "image2": "../assets/images/mlogo.png",
             "text": "A gaming logo for a gaming startup"
         },
         { 
             "title": "Melancholic",
             "image": "../assets/images/SwordLogo.png",
+            "imageCompressed": "../assets/compressed/SwordLogo.png",
             "image2": "../assets/images/SwordLogo.png",
             "text": "A text-based logo for a startup"
         },
         {
             "title": "Flora's Flowers",
             "image": "../assets/images/flower_businesscard.png",
+            "imageCompressed": "../assets/compressed/flower_businesscard.png",
             "image2": "../assets/images/flower_businesscard.png",
             "text": "Business cards for a flower boutique"
         },
         {
             "title": "+",
             "image": "../assets/images/viewmore.png",
+            "imageCompressed": "../assets/compressed/viewmore.png",
             "text": "View More"
         }
     ] 

@@ -26,7 +26,8 @@ function addDOM(result) {
     p.innerText = e.title;
 
     fragment.appendChild(wrapper);
-    img.src = e.image;
+    img.src = e.imageCompressed;
+    img.alt = e.title;
     wrapper.appendChild(img);
     wrapper.appendChild(more);
     more.appendChild(p);

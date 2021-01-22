@@ -8,6 +8,13 @@
             "text": "A contest entry for a 3D creator group"
         },
         {
+            "title": "Haunted Balloon",
+            "image": "../assets/images/spooky.png",
+            "imageCompressed": "../assets/compressed/spooky.png",
+            "image2": "../assets/images/spooky.png",
+            "text": "A Halloween themed balloon render"
+        },
+        {
             "title": "Inside the Door",
             "image": "../assets/images/3droom.png",
             "imageCompressed": "../assets/compressed/3droom.png",
@@ -20,6 +27,13 @@
             "imageCompressed": "../assets/compressed/businesscard3d.png",
             "image2": "../assets/images16x9/card_render.png",
             "text": "Business cards rendered in 3D"
+        },
+        {
+            "title": "Man on the Moon",
+            "image": "../assets/images/manonthemoon.png",
+            "imageCompressed": "../assets/compressed/manonthemoon.png",
+            "image2": "../assets/images/manonthemoon.png",
+            "text": "A colourful moon render for Blender52"
         },
         {
             "title": "Emotional Drink",
@@ -68,6 +82,61 @@
             "image": "../assets/images/viewmore.png",
             "imageCompressed": "../assets/compressed/viewmore.png",
             "text": "View More"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Spooky Ghost",
+            "image": "./assets/images/ghost.png",
+            "imageCompressed": "./assets/images/ghost.png",
+            "image2": "./assets/images/ghost.png",
+            "text": "A contest entry for a 3D creator group"
+        },
+        {
+            "title": "Reach For The Stars",
+            "image": "./assets/images16x9/rocket.png",
+            "imageCompressed": "./assets/images16x9/rocket.png",
+            "image2": "./assets/images16x9/rocket.png",
+            "text": "A contest entry for a 3D creator group"
+        },
+        {
+            "title": "Searlzy Banner",
+            "image": "./assets/images16x9/s_banner.png",
+            "imageCompressed": "./assets/images16x9/s_banner.png",
+            "image2": "./assets/images16x9/s_banner.png",
+            "text": "Posters and banners designed for all purposes"
+        },
+        {
+            "title": "Phone Mockup",
+            "type": "video",
+            "image": "./assets/videos/ShortPhoneAnim.mp4",
+            "imageCompressed": "./assets/videos/ShortPhoneAnim.mp4",
+            "image2": "./assets/videos/ShortPhoneAnim.mp4",
+            "text": "A render and animation of a mock phone"
+        },
+        {
+            "title": "Phone Ad",
+            "type": "video",
+            "image": "./assets/videos/PhoneAd2.mp4",
+            "imageCompressed": "./assets/videos/PhoneAd2.mp4",
+            "image2": "./assets/videos/PhoneAd2.mp4",
+            "text": "A render and animation of a mock phone"
+        },
+        {
+            "title": "Custom Zoom & Green Screen Backgrounds",
+            "type": "video",
+            "image": "./assets/videos/zoombg.mp4",
+            "imageCompressed": "./assets/videos/zoombg.mp4",
+            "image2": "./assets/videos/zoombg.mp4",
+            "text": "Professional or fun Zoom and chromakey backgrounds"
+        },
+        {
+            "title": "Motion Graphics",
+            "type": "video",
+            "image": "./assets/videos/logovideo.mp4",
+            "imageCompressed": "./assets/videos/logovideo.mp4",
+            "image2": "./assets/videos/logovideo.mp4",
+            "text": "Animated (2D) motion graphics"
         }
     ] 
 }

@@ -3,9 +3,17 @@ function addDOM(result) {
   let dom = document.querySelector("#dom");
   let fragment = document.createDocumentFragment();
 
-  const findTitle = data.gallery.find((obj) => {
-    return obj.title == title;
-  });
+  let findTitle;
+
+  if (id == 1) {
+    findTitle = data.projects.find((obj) => {
+      return obj.title == title;
+    });
+  } else {
+    findTitle = data.gallery.find((obj) => {
+      return obj.title == title;
+    });
+  }
 
   if (findTitle == undefined || findTitle == null || findTitle == "") {
     window.location = "projects";
@@ -15,8 +23,19 @@ function addDOM(result) {
     col1.className = "column is-6";
     col2.className = "column";
 
-    let img = document.createElement("img");
-    img.src = findTitle.image2;
+    let img;
+
+    if (findTitle.type == "video") {
+      img = document.createElement("video");
+      img.src = findTitle.image2;
+
+      img.autoplay = true;
+      img.loop = true;
+    } else {
+      img = document.createElement("img");
+      img.src = findTitle.image2;
+    }
+
     let more = document.createElement("div");
     more.className = "viewmore subtitle has-text-centered";
     let h2 = document.createElement("h2");
@@ -58,5 +77,6 @@ function readJSON(path) {
 
 const url = new URLSearchParams(window.location.search);
 const title = url.get("title");
+const id = url.get("id");
 
 readJSON("./src/gallery.json");

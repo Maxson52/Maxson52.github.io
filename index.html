@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Max T" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="./assets/other/logocontrast.png" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="./src/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma-divider@0.2.0/dist/css/bulma-divider.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./src/gallery.js"></script>
+
+    <title>HOME | Max T</title>
+    <meta 
+      name="title"
+      content="HOME | Max T | Freelance video editor, graphic designer & 3D specialist"
+    />
+    <meta
+      name="description"
+      content="Max T is a freelance video editor, graphic designer and 3D specialist. He is ready to tackle any project you throw at him, big or small. With excellent communication and turnaround, Max will create the beginning or finishing touches on your business."
+    />
+    <meta property="og:image" content="./assets/other/logo_nogb.png" />
+
+    <meta name="google-site-verification" content="FA-A9MkVUgrkDMxL_KFrB0n2CdXK0Yd_FuHwAyebsQI" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176546818-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []; 
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-176546818-1');
+    </script>
+
+  </head>
+  <body>
+    <div id="particles-js" class="particles-js"></div>
+
+    <div id="cssmenu">
+      <img id="navimg" width="150rem" src="./assets/other/logo_nobg_nopadding.png" alt="Header" />
+      <h1 id="navtitle">Max T.</h1>
+      <ul>
+        <li><a href="index">Home</a></li>
+        <li><a href="projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <section id="gallery" class="hero is-fullheight child">
+      <div class="hero-body">
+        <div class="container">
+          <div class="content is-large">
+            <div id="dom" class="columns is-mobile is-multiline">
+              
+              <!-- use gallery.json to edit here -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="hero is-black isnt-black is-fullheight">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1 has-text-centered">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              Contact Me
+            </div>
+          </h1>
+          <br />
+          <h2
+            class="subtitle has-text-centered"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            data-aos-duration="500"
+          >
+            <a class="link" href="mailto:mail@Max52.33mail.com">Email</a>
+          </h2>
+          <h3
+            class="subtitle has-text-centered"
+            data-aos="fade-up"
+            data-aos-delay="800"
+            data-aos-duration="500"
+          >
+            <a class="link" href="https://reddit.com/u/maxson52" target="blank_"
+              >Reddit</a
+            >
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load("particles-js", "./src/particles2.json", function () {
+        // console.log("callback - particles.js config loaded");
+      });
+    </script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

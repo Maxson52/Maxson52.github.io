@@ -1,0 +1,142 @@
+{
+    "gallery": [
+        {
+            "title": "A Robot's Picnic",
+            "image": "../assets/images/3dmechremains.png",
+            "imageCompressed": "../assets/compressed/3dmechremains.png",
+            "image2": "../assets/images16x9/RobotsPicnic.jpg",
+            "text": "A contest entry for a 3D creator group"
+        },
+        {
+            "title": "Haunted Balloon",
+            "image": "../assets/images/spooky.png",
+            "imageCompressed": "../assets/compressed/spooky.png",
+            "image2": "../assets/images/spooky.png",
+            "text": "A Halloween themed balloon render"
+        },
+        {
+            "title": "Inside the Door",
+            "image": "../assets/images/3droom.png",
+            "imageCompressed": "../assets/compressed/3droom.png",
+            "image2": "../assets/images/3droom.png",
+            "text": "An open-concept, modern pink house"
+        },
+        {
+            "title": "3D Stationery",
+            "image": "../assets/images/businesscard3d.png",
+            "imageCompressed": "../assets/compressed/businesscard3d.png",
+            "image2": "../assets/images16x9/card_render.png",
+            "text": "Business cards rendered in 3D"
+        },
+        {
+            "title": "Man on the Moon",
+            "image": "../assets/images/manonthemoon.png",
+            "imageCompressed": "../assets/compressed/manonthemoon.png",
+            "image2": "../assets/images/manonthemoon.png",
+            "text": "A colourful moon render for Blender52"
+        },
+        {
+            "title": "Summer is Here",
+            "image": "../assets/images/pops.png",
+            "imageCompressed": "../assets/images/pops.png",
+            "image2": "../assets/images/pops.png",
+            "text": "A summer themed render of some popsicles"
+        },
+        {     
+            "title": "Peak Custom Keyboards",
+            "image": "../assets/images/Mountain.png",
+            "imageCompressed": "../assets/compressed/Mountain.png",
+            "image2": "../assets/images/Mountain.png",
+            "text": "A minimalist logo for a keyboard company"
+        },
+        {
+            "title": "Vena Cava Cosmetics",
+            "image": "../assets/images/vccolour.png",
+            "imageCompressed": "../assets/compressed/vccolour.png",
+            "image2": "../assets/images/vccolour.png",
+            "text": "A heart-shaped logo for a cosmetic company"
+        },
+        { 
+            "title": "Mystical Gaming",
+            "image": "../assets/images/mlogo.png",
+            "imageCompressed": "../assets/compressed/mlogo.png",
+            "image2": "../assets/images/mlogo.png",
+            "text": "A gaming logo for a gaming startup"
+        },
+        { 
+            "title": "Melancholic",
+            "image": "../assets/images/SwordLogo.png",
+            "imageCompressed": "../assets/compressed/SwordLogo.png",
+            "image2": "../assets/images/SwordLogo.png",
+            "text": "A text-based logo for a startup"
+        },
+        {
+            "title": "Flora's Flowers",
+            "image": "../assets/images/flower_businesscard.png",
+            "imageCompressed": "../assets/compressed/flower_businesscard.png",
+            "image2": "../assets/images/flower_businesscard.png",
+            "text": "Business cards for a flower boutique"
+        },
+        {
+            "title": "+",
+            "image": "../assets/images/viewmore.png",
+            "imageCompressed": "../assets/compressed/viewmore.png",
+            "text": "View More"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Spooky Ghost",
+            "image": "./assets/images/ghost.png",
+            "imageCompressed": "./assets/images/ghost.png",
+            "image2": "./assets/images/ghost.png",
+            "text": "A contest entry for a 3D creator group"
+        },
+        {
+            "title": "Reach For The Stars",
+            "image": "./assets/images16x9/rocket.png",
+            "imageCompressed": "./assets/images16x9/rocket.png",
+            "image2": "./assets/images16x9/rocket.png",
+            "text": "A contest entry for a 3D creator group"
+        },
+        {
+            "title": "Searlzy Banner",
+            "image": "./assets/images16x9/s_banner.png",
+            "imageCompressed": "./assets/images16x9/s_banner.png",
+            "image2": "./assets/images16x9/s_banner.png",
+            "text": "A custom banner for a gaming themed channel"
+        },
+        {
+            "title": "Phone Mockup",
+            "type": "video",
+            "image": "./assets/videos/ShortPhoneAnim.mp4",
+            "imageCompressed": "./assets/videos/ShortPhoneAnim.mp4",
+            "image2": "./assets/videos/ShortPhoneAnim.mp4",
+            "text": "A render and animation of a mock phone"
+        },
+        {
+            "title": "Phone Ad",
+            "type": "video",
+            "image": "./assets/videos/PhoneAd2.mp4",
+            "imageCompressed": "./assets/videos/PhoneAd2.mp4",
+            "image2": "./assets/videos/PhoneAd2.mp4",
+            "text": "A render and animation of a mock phone"
+        },
+        {
+            "title": "Custom Zoom and Green Screen Backgrounds",
+            "type": "video",
+            "image": "./assets/videos/zoombg.mp4",
+            "imageCompressed": "./assets/videos/zoombg.mp4",
+            "image2": "./assets/videos/zoombg.mp4",
+            "text": "Professional or fun Zoom and chromakey backgrounds"
+        },
+        {
+            "title": "Motion Graphics",
+            "type": "video",
+            "image": "./assets/videos/logovideo.mp4",
+            "imageCompressed": "./assets/videos/logovideo.mp4",
+            "image2": "./assets/videos/logovideo.mp4",
+            "text": "Animated (2D) motion graphics"
+        }
+    ] 
+}

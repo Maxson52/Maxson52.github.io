@@ -27,13 +27,15 @@ function addDOM(result) {
 
     if (findTitle.type == "video") {
       img = document.createElement("video");
-      img.src = findTitle.image2;
+      img.src = findTitle.image;
 
       img.autoplay = true;
       img.loop = true;
+      img.muted = true;
+      img.controls = true;
     } else {
       img = document.createElement("img");
-      img.src = findTitle.image2;
+      img.src = findTitle.image;
     }
 
     let more = document.createElement("div");

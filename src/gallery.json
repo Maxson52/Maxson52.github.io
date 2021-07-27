@@ -29,16 +29,16 @@
             "title": "Froggy",
             "image": "../assets/gallery/frog.png",
             "text": "A frog logo designed for print and web"
+        },        
+        {
+            "title": "Beachside",
+            "image": "../assets/gallery/beachside.png",
+            "text": "A mockup of a takeout beach business"
         },
         {
             "title": "Mindful",
             "image": "../assets/gallery/mindful.png",
             "text": "A mindful design made for thoughfulness"
-        },
-        {
-            "title": "Beach Views",
-            "image": "../assets/gallery/landscape.png",
-            "text": "A geometric patch featuring a sunny day"
         }
     ],
     "projects": [
@@ -79,7 +79,13 @@
             "title": "Motion Graphics",
             "type": "video",
             "image": "./assets/videos/logovideo.mp4",
-            "text": "Animated (2D) motion graphics"
+            "text": "2D animated motion graphics"
+        },
+        {
+            "title": "3D Science Graphics",
+            "type": "video",
+            "image": "./assets/videos/sciencevideo.mov",
+            "text": "3D animated science display"
         }
     ] 
 }

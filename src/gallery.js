@@ -7,11 +7,11 @@ function addDOM(result) {
     let wrapper = document.createElement("div");
     if (e.title != "+") {
       wrapper.onclick = function () {
-        location.href = "project?title=" + e.title;
+        // location.href = "project?title=" + e.title;
       };
     } else {
       wrapper.onclick = function () {
-        location.href = "projects";
+        // location.href = "projects";
       };
     }
 
@@ -26,7 +26,7 @@ function addDOM(result) {
     p.innerText = e.title;
 
     fragment.appendChild(wrapper);
-    img.src = e.imageCompressed;
+    img.src = e.image;
     img.alt = e.title;
     wrapper.appendChild(img);
     wrapper.appendChild(more);
